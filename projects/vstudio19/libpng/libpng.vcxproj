@@ -47,6 +47,7 @@
     <LinkIncremental>false</LinkIncremental>
     <CustomBuildBeforeTargets />
     <TargetName>$(ProjectName)16</TargetName>
+    <OutDir>$(SolutionDir)output\$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Library|Win32'">
     <ClCompile>
